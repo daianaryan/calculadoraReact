@@ -250,7 +250,7 @@ export function UserProvider(props) {
 
     /* funcion de desarrollo para los funciones aun no habilitadas */
     const noHabilitado = () => {
-        alert('Lo Lamento, esta funcion aun no se encuentra habilitada.')
+        alert('Disculpe las molestas, esta funcion no se encuentra habilitada para ser ejecutada!.')
     }
     /* Retorno el provider y todas los valores para mostrar resultado y la funcion de ingresarValores
     en esta parte se asocian los useContext que fueron declarados arriba con los hooks que son declarados dentro del UserProvider  */
